@@ -1,0 +1,23 @@
+{
+  "name": "ucapan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bean791/ucapan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bean791/ucapan/issues"
+  },
+  "homepage": "https://github.com/Bean791/ucapan#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
