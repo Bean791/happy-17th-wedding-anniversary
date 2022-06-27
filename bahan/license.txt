@@ -1,11 +1,11 @@
 Model Information:
-* title:	happy anniversary my love
-* source:	https://sketchfab.com/3d-models/happy-anniversary-my-love-4b3b0369dbe34d419e61b2f3d6d9f9f2
-* author:	D444rkGhost (https://sketchfab.com/propersiaclan)
+* title:	Single Stem Rose
+* source:	https://sketchfab.com/3d-models/single-stem-rose-7aff3f1a1736416e8072ca82f4ffd01b
+* author:	intrepidolivia (https://sketchfab.com/intrepidolivia)
 
 Model License:
-* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
-* requirements:	Author must be credited. Commercial use is allowed.
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "happy anniversary my love" (https://sketchfab.com/3d-models/happy-anniversary-my-love-4b3b0369dbe34d419e61b2f3d6d9f9f2) by D444rkGhost (https://sketchfab.com/propersiaclan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Single Stem Rose" (https://sketchfab.com/3d-models/single-stem-rose-7aff3f1a1736416e8072ca82f4ffd01b) by intrepidolivia (https://sketchfab.com/intrepidolivia) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

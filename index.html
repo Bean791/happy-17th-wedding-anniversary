@@ -11,21 +11,21 @@
 </head>
 <body class="bg-gradient-to-b from-dua to-tiga">
     <div class="grid lg:grid-rows-1 grid-rows-2 grid-flow-col lg:gap-6 gap-12 ">
-        <div id="3d" class="absolute -z-10 w-[50%] "></div>
-        <div class=" lg:mx-10  w-[50%] lg:ml-96 justify-center items-center">
-            <div class="container bg-dua rounded-2xl shadow-xl m-12 ">
+        <div id="3d" class="lg:absolute lg:-z-10 lg:w-[50%] absolute -z-30 w-full h-1/4"></div>
+        <div class=" lg:mx-10  lg:w-[50%] lg:ml-96 justify-center items-center mx-10">
+            <div class="container bg-dua rounded-2xl shadow-xl lg:m-12 mt-60">
                 <div class="overflow-hidden rounded-xl h-56">
-                    <img src="https://source.unsplash.com/900x500?Microcontroller" alt="">
+                    <img src="bahan/back2.jpg" alt="Photo by Annie Spratt on Unsplash">
                 </div>
                 <div class="flex justify-center -mt-10 mb-5">
                     <span class="blok w-28 h-28 ">
-                        <img src="https://source.unsplash.com/500x500?animals" alt="" class="rounded-full object-cover bg-dua p-1.5">
+                        <img src="bahan/profile.jpeg" alt="" class="rounded-full object-cover bg-dua p-1.5">
                     </span>
                 </div>
                 <div class="text-center p-5">
-                    <h1 class="text-5xl font-font1 text-satu">Hallo</h1>
-                    <h2 class="text-3xl font-font1 text-satu mt-4">hai</h2>
-                    <p class="text-empat font-font2 mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quasi labore eos, quam, in perferendis quisquam praesentium cupiditate quibusdam quo molestias commodi maiores omnis nihil distinctio tempora ipsum voluptates quidem?</p>
+                    <h1 class="text-5xl font-font1 text-satu">happy 17th </h1>
+                    <h2 class="text-3xl font-font1 text-satu mt-4">wedding anniversary</h2>
+                    <p class="text-empat font-font2 mt-8">Satu-satunya hal yang lebih baik daripada memiliki kalian sebagai orang tua adalah memiliki kalian sebagai kakek dan nenek untuk anakku nanti. Happy anniversary.</p>
                 </div>
             </div>
         </div>
@@ -71,14 +71,26 @@
         // light.position.set( 50, 50, 50 );
         // scene.add( light );
         camera.position.z = 5;
-        camera.position.x = 5;
+        if(window.screen.width>1279){
+            camera.position.x = 5;
+            camera.position.y = 2;
+        }else{
+            camera.position.x=0;
+            camera.position.y=-2;
+        }
+
+
 
         let bahan;
         const loader = new GLTFLoader();
 
         loader.load( 'bahan/scene.gltf', function ( gltf ) {
             bahan=gltf.scene
-            bahan.scale.set(3,3,3)
+            if(window.screen.width>1279){
+            bahan.scale.set(7,7,7)
+            }else{
+                bahan.scale.set(3,3,3)
+            }
         	scene.add( bahan );
         
         } );
